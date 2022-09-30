@@ -1,2 +1,2 @@
 #!/bin/bash
-find /etc/passwd -path *root* -type d |cat
+grep -B 4 "root" /etc/passwd
