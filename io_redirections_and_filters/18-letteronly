@@ -1,0 +1,2 @@
+#!/bin/bash
+greb -B ? /etc/ssh/sshd_config
