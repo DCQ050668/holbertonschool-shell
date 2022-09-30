@@ -1,2 +1,2 @@
 #!/bin/bash
-find /etc/passwd -path "./root" -type f
+find /etc/passwd -path "./root" -type f |cat
